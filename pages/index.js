@@ -14,9 +14,10 @@ import ProfileCardStyle1 from '../components/profileCardStyle1'
 import BreadCrumb from '../components/breadcrumb'
 import MainMenu from '../components/mainMenu'
 import CustomResult from '../components/customResult'
-import TabsOne from '../components/tabsOne'
+import TabsOne from '../components/tabBasic'
 import StatsCounter from '../components/statsCounter'
 import CustomSteps from '../components/customSteps'
+import TabBasic from '../components/tabBasic'
 
 function callback(key) {
   console.log(key)
@@ -75,16 +76,7 @@ class SiderDemo extends React.Component {
             <Row>
               <Col span={24}>
                 <Row gutter={16}>
-                  <Col span={10}>
-                    <Row gutter={16}>
-                      <StatsCounter />
-                    </Row>
-                  </Col>
-                  <Col span={14}>
-                    <Card>
-                      <CustomSteps />
-                    </Card>
-                  </Col>
+                  <StatsCounter />
                 </Row>
               </Col>
             </Row>
@@ -95,7 +87,7 @@ class SiderDemo extends React.Component {
                   <Tasks />
                 </Card>
                 <Card style={{ marginTop: '18px' }}>
-                  <TabsOne />
+                  <TabBasic />
                 </Card>
               </Col>
               <Col span={12}>
@@ -112,9 +104,7 @@ class SiderDemo extends React.Component {
                 </Card>
               </Col>
               <Col span={12}>
-                <Row gutter={16}>
-                  <ProgressCircular />
-                </Row>
+                <Row gutter={16}>progress</Row>
               </Col>
             </Row>
 

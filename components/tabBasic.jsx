@@ -6,7 +6,7 @@ function callback(key) {
   console.log(key)
 }
 
-const TabsOne = props => (
+const TabBasic = props => (
   <>
     <Tabs defaultActiveKey="1" onChange={callback}>
       <TabPane tab="Notes" key="1">
@@ -26,4 +26,4 @@ const TabsOne = props => (
   </>
 )
 
-export default TabsOne
+export default TabBasic

@@ -6,7 +6,7 @@ const { Title, Text } = Typography
 
 const Tasks = props => (
   <>
-    <Title level={3}>Tasks</Title>
+    <Title level={3}>To Do</Title>
     <Text type="secondary">
       Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor. Et quia eum
       nobis ut hic autem enim. Qui ea a qui accusantium ducimus ut placeat modi. Ut corrupti eum.
